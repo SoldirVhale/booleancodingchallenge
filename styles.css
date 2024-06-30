@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: #00000080;
+    width: 65%;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 90px;
+}
+
+/*Testa*/
+
+header {
+    text-align: center;
+}
+
+img {
+    width: 25%;
+}
+
+h1 {
+    color: #00FF00;
+    font-weight: 600;
+}
+
+/*Navigatore*/
+
+nav {
+    background-color: #00FF00;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+/*Monopattini*/
+
+main {
+    color: #FFFFFF;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.medium-charge {
+    background-color: #F5B453;
+    width: 35%;
+}
+
+.high-charge {
+    background-color: #1EC31E;
+    width: 60%;
+}
+
+.low-charge {
+    background-color: #BE4141;
+    width: 15%;
+}
+
+.low-charge, .medium-charge, .high-charge {
+    border-radius: 5px;
+    height: 28px;
+}
+
+.scooter {
+    padding: 10px 0;
+}
+
+.scooter.gino {
+    padding-top: 20px;
+}
